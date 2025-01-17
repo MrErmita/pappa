@@ -12,7 +12,7 @@ class Consumatore implements Runnable {
         try {
             while (true) {
                 piatto.consumaBoccone();
-                Thread.sleep(1000); // Simula il tempo di consumo
+                Thread.sleep(1000);
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();

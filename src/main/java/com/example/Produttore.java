@@ -14,7 +14,7 @@ class Produttore implements Runnable {
             while (true) {
                 piatto.aggiungiBoccone("Boccone " + bocconeId);
                 bocconeId++;
-                Thread.sleep(500); // Simula il tempo di preparazione
+                Thread.sleep(500);
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
